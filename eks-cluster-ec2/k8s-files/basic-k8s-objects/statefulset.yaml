@@ -64,3 +64,4 @@ spec:
             value: "your-password"
         ports:
         - containerPort: 3306
+
