@@ -57,7 +57,6 @@ nodeSelector:
 podAnnotations: {}
 
 # Custom labels for the tigera/operator pod.
-podLabels: {}
 
 # Image and registry configuration for the tigera/operator pod.
 tigeraOperator:

@@ -37,7 +37,7 @@ kind:  Deployment
 metadata:
   name: hello-v1
   labels:
-    app: hello
+    app: ben
 spec:
   replicas: 1
   selector:
@@ -79,8 +79,9 @@ spec:
   ingressClassName: alb
   rules:
    # - host: tower.cadana.link
+    - http:
         paths:
-          - path: /hello-v1
+          - path: /hello-v11
             pathType: Prefix
             backend:
               service:

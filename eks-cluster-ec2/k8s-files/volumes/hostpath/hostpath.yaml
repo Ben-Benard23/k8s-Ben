@@ -19,11 +19,11 @@ spec:
             - containerPort: 8080
           volumeMounts:
             - name: hostpath-volume
-              mountPath: /opt # Mount path inside the container
+              mountPath: /opt # Mount path inside the container by default
       volumes:
       - name: hostpath-volume
         hostPath:
-          # directory location on host where pod is running
+          # directory location on host where pod is running -i.e inside the node
           path: /data
           # this field is optional
           type: DirectoryOrCreate
