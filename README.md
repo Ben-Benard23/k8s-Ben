@@ -7,7 +7,7 @@
 * AWS Account and AWS cli installed
 * Kubectl installed. Follow this url for installation guide **https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html**
 
-### Notes
+### Note
 
 * This cluster based on the current configuration will be created in the us-east-1 regiona and is setup to wotk only with fargate
 * Rerun terraform apply again if you receive **Error: creating EC2 VPC: RequestError: send request failed
